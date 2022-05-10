@@ -17,6 +17,7 @@ public class branch {
 
     public int getSalary() {
         return salary;
+
     }
 
     public void setName(String name) {
