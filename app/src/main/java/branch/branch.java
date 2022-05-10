@@ -3,20 +3,21 @@ package branch;
 public class branch {
     String name, id;
     float cgpa;
-    int tmp;
-    branch(String name, String id,float cgpa, int tmp){
+    int salary;
+    branch(String name, String id,float cgpa, int salary){
         this.name=name;
         this.id=id;
         this.cgpa=cgpa;
-        this.tnp=tmp;
+        this.salary=salary;
     }
 
-    public void setTmp(int tmp) {
-        this.tmp = tmp;
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
-    public int getTmp() {
-        return tmp;
+    public int getSalary() {
+        return salary;
+
     }
 
     public void setName(String name) {
